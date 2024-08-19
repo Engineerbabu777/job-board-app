@@ -1,7 +1,7 @@
 'use client';
 import {saveJobAction} from "@/app/actions/jobActions";
 import ImageUpload from "@/app/components/ImageUpload";
-import type {Job} from "@/models/Job";
+import type {Job} from "../../models/Job";
 import {faEnvelope, faMobile, faPerson, faPhone, faStar, faUser} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {Button, RadioGroup, TextArea, TextField, Theme} from "@radix-ui/themes";

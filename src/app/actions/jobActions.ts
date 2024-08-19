@@ -1,6 +1,6 @@
 'use server';
 
-import {JobModel} from "@/models/Job";
+import {JobModel} from "../../models/Job";
 import mongoose from "mongoose";
 import {revalidatePath} from "next/cache";
 

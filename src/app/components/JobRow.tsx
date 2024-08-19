@@ -1,6 +1,6 @@
 'use client';
 import TimeAgo from "@/app/components/TimeAgo";
-import {Job, JobModel} from "@/models/Job";
+import {Job, JobModel} from "../../models/Job";
 import {faHeart} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import axios from "axios";
