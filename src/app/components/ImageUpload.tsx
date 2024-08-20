@@ -26,8 +26,8 @@ export default function ImageUpload({
       const data = new FormData;
       data.set('file', file);
       const response = await axios.post('/api/upload', data);
-      if (response.data.url) {
-        setUrl(response.data.url);
+      if (response.data.secure_url) {
+        setUrl(response.data.secure_url);
         setIsUploading(false);
         setIsImageLoading(true);
       }
